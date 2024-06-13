@@ -9,15 +9,16 @@ export const FooterStyles = createStyles({
     position: "static",
     color: "#fff",
     transition: "box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms",
-    justifyContent: "space-between"
+    justifyContent: "space-between",
+    
   },
   grids: {
-   padding: "1em"
+   padding: "1em",
   },
   box:{
     display: "flex",
     flexWrap: "nowrap",
-    justifyContent: "space-between"
+    justifyContent: "space-evenly",
   },
   divider:{
     backgroundColor: "#fff",
